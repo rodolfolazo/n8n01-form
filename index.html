@@ -6,7 +6,12 @@
   </head>
   <body>
     <h2>Formulario de contacto</h2>
-    <form id="formularioContacto" method="POST">
+    <form
+      id="formularioContacto"
+      action="https://surcocode.app.n8n.cloud/webhook-test/formulario-registro"
+      method="POST"
+      accept-charset="UTF-8"
+    >
       <label for="nombre">Nombre:</label><br />
       <input type="text" id="nombre" name="nombre" required /><br /><br />
 
@@ -21,6 +26,5 @@
 
       <button type="submit">Enviar</button>
     </form>
-    <script src="script.js"></script>
   </body>
 </html>

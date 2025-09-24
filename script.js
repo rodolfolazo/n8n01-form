@@ -31,4 +31,9 @@ document
         console.error("Error:", error);
         alert("Error de conexión.");
       });
+
+    document.getElementById("nombre").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("telefono").value = "";
+    document.getElementById("empresa").value = "";
   });
